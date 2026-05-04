@@ -135,48 +135,6 @@ button {
   }
 }
 
-@media (max-width: 480px) {
-  .rolling-copy {
-    transform: none;
-  }
-
-  .rolling-copy__item.is-leaving {
-    animation: copy-leave-mobile 460ms cubic-bezier(0.4, 0, 0.2, 1) both;
-  }
-
-  .rolling-copy__item.is-entering {
-    animation: copy-enter-mobile 500ms 160ms cubic-bezier(0.22, 1, 0.36, 1) both;
-  }
-}
-
-@keyframes copy-leave-mobile {
-  0% {
-    opacity: 0.58;
-    transform: translate3d(0, 0, 0);
-  }
-
-  55% {
-    opacity: 0.18;
-  }
-
-  100% {
-    opacity: 0;
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@keyframes copy-enter-mobile {
-  0% {
-    opacity: 0;
-    transform: translate3d(0, 10px, 0);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-}
-
 .hero__divider {
   width: 1px;
   height: 24px;
