@@ -103,7 +103,7 @@ button {
 .rolling-copy__item.is-leaving {
   opacity: 0;
   transform: translateY(-22px);
-  z-index: 1;
+  z-index: 3;
 }
 
 .hero__divider {
