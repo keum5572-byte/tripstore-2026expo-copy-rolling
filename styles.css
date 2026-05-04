@@ -108,7 +108,7 @@ button {
 
 .rolling-copy__item.is-entering {
   z-index: 2;
-  animation: copy-enter 560ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: copy-enter 560ms 40ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 @keyframes copy-leave {
