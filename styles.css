@@ -133,6 +133,10 @@ button {
     transform: translate3d(0, 18px, 0);
   }
 
+  45% {
+    opacity: 1;
+  }
+
   100% {
     opacity: 1;
     transform: translate3d(0, 0, 0);
