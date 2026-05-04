@@ -1,8 +1,8 @@
 const rollingCopies = [
   "솔 바이 멜리아 푸꾸옥",
-  "푸꾸옥 5성급 리조트",
-  "오션뷰 3박 숙박권",
-  "럭키드로우 푸꾸옥",
+  "베스트웨스턴 푸꾸옥",
+  "노보텔 푸꾸옥",
+  "모벤픽 푸꾸옥",
 ];
 
 const root = document.querySelector(".rolling-copy");
