@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=375, initial-scale=1" />
+    <title>Tripstore 2026 Expo Copy Rolling</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="stage" aria-label="2026 여행박람회 룰렛 이벤트">
+      <section class="hero">
+        <img class="hero__icon" src="./assets/hotel.png" alt="" />
+
+        <div class="hero__title-block">
+          <h1 class="rolling-copy" aria-live="polite">
+            <span class="rolling-copy__item is-active">솔 바이 멜리아 푸꾸옥</span>
+          </h1>
+          <div class="hero__divider" aria-hidden="true"></div>
+          <p class="hero__headline">
+            푸꾸옥 <span>5</span>성급 호텔<br />
+            <span>3</span>박 숙박권 응모하기
+          </p>
+        </div>
+
+        <p class="hero__description">
+          푸꾸옥 인기 호텔&amp;리조트 4곳 섭외 완료!<br />
+          당첨 시 원하는 호텔의 3박 숙박권이 0원
+        </p>
+      </section>
+
+      <section class="roulette" aria-label="룰렛">
+        <video class="roulette__machine" autoplay muted loop playsinline preload="auto" poster="./assets/slot-machine.png" aria-label="룰렛 영상">
+          <source src="https://static2.tripstore.kr/assets/videos/d34fe2c7-31ef-42af-a352-6065a58244ed.mp4" type='video/mp4; codecs="av01"' />
+          <source src="https://static2.tripstore.kr/assets/videos/8d473271-a14e-429e-83b9-62fc412ebe27.mp4" type='video/mp4; codecs="hvc1"' />
+          <source src="https://static2.tripstore.kr/assets/videos/77f77ee4-4283-44ea-88b6-a24536f5ed14.mp4" type='video/mp4; codecs="avc1.42E01E"' />
+        </video>
+        <button class="roulette__button" type="button">룰렛 돌리고 혜택 뽑기</button>
+      </section>
+
+      <section class="notice" aria-label="참여 안내">
+        <p>하루 1번, 로그인 시 참여가 가능해요</p>
+        <p>공유 후 룰렛을 1회 더 돌릴 수 있어요</p>
+        <p>룰렛 작동 횟수는 자정에 초기화돼요</p>
+      </section>
+
+      <section class="winner" aria-label="당첨자 안내">
+        <div class="winner__divider" aria-hidden="true"></div>
+        <p class="winner__title">✨ 1차 당첨자(5.19-6.1)를 찾는 중이에요 ✨</p>
+        <div class="winner__row">
+          <span>1차 당첨자</span>
+          <span>트** 님 (010 - 00** - 00**)</span>
+        </div>
+      </section>
+
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
