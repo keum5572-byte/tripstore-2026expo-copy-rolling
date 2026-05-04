@@ -15,20 +15,17 @@ function setRollingCopy(nextIndex) {
   const current = root.querySelector(".rolling-copy__item.is-active");
   const next = document.createElement("span");
 
-  next.className = "rolling-copy__item";
+  next.className = "rolling-copy__item is-entering";
   next.textContent = rollingCopies[nextIndex];
   root.append(next);
 
   requestAnimationFrame(() => {
     current?.classList.add("is-leaving");
-
-    window.setTimeout(() => {
-      current?.classList.remove("is-active");
-      next.classList.add("is-active");
-    }, 90);
   });
 
   window.setTimeout(() => {
+    next.classList.remove("is-entering");
+    next.classList.add("is-active");
     current?.remove();
   }, 720);
 }
