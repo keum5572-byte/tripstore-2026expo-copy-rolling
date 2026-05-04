@@ -7,7 +7,7 @@ const rollingCopies = [
 
 const root = document.querySelector(".rolling-copy");
 let index = 0;
-const copyChangeIntervalMs = 2110;
+const copyChangeIntervalMs = 1610;
 
 function setRollingCopy(nextIndex) {
   if (!root) return;
