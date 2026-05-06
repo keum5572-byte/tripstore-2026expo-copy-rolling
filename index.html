@@ -4,56 +4,138 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=375, initial-scale=1" />
     <title>Tripstore 2026 Expo Copy Rolling</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=hangul-typing-20260506" />
   </head>
   <body>
     <main class="stage" aria-label="2026 여행박람회 룰렛 이벤트">
-      <section class="hero">
-        <img class="hero__icon" src="./assets/hotel.png" alt="" />
+      <section class="sample" aria-label="롤링 텍스트 샘플 1">
+        <section class="hero">
+          <img class="hero__icon" src="./assets/hotel.png" alt="" />
 
-        <div class="hero__title-block">
-          <h1 class="rolling-copy" aria-live="polite">
-            <span class="rolling-copy__item is-active">솔 바이 멜리아 푸꾸옥</span>
-          </h1>
-          <div class="hero__divider" aria-hidden="true"></div>
-          <p class="hero__headline">
-            푸꾸옥 <span>5</span>성급 호텔<br />
-            <span>3</span>박 숙박권 응모하기
+          <div class="hero__title-block">
+            <h1 class="rolling-copy" aria-live="polite">
+              <span class="rolling-copy__item is-active">솔 바이 멜리아 푸꾸옥</span>
+            </h1>
+            <div class="hero__divider" aria-hidden="true"></div>
+            <p class="hero__headline">
+              샘플 1 애니메이션<br />
+              라인 슬라이드 업
+            </p>
+          </div>
+
+          <p class="hero__description">
+            문장 전체가 한 줄 단위로 위로 전환되는 기본 롤링 모션<br />
+            문장 갯수, 유지 시간, 폰트 사이즈 · 굵기 · 컬러 변경 가능
           </p>
-        </div>
+        </section>
 
-        <p class="hero__description">
-          푸꾸옥 인기 호텔&amp;리조트 4곳 섭외 완료!<br />
-          당첨 시 원하는 호텔의 3박 숙박권이 0원
-        </p>
+        <section class="roulette" aria-label="룰렛 영상">
+          <video class="roulette__machine" autoplay muted loop playsinline preload="auto" poster="./assets/slot-machine.png" aria-label="룰렛 영상">
+            <source src="https://static2.tripstore.kr/assets/videos/d34fe2c7-31ef-42af-a352-6065a58244ed.mp4" type='video/mp4; codecs="av01"' />
+            <source src="https://static2.tripstore.kr/assets/videos/8d473271-a14e-429e-83b9-62fc412ebe27.mp4" type='video/mp4; codecs="hvc1"' />
+            <source src="https://static2.tripstore.kr/assets/videos/77f77ee4-4283-44ea-88b6-a24536f5ed14.mp4" type='video/mp4; codecs="avc1.42E01E"' />
+          </video>
+        </section>
       </section>
 
-      <section class="roulette" aria-label="룰렛">
-        <video class="roulette__machine" autoplay muted loop playsinline preload="auto" poster="./assets/slot-machine.png" aria-label="룰렛 영상">
-          <source src="https://static2.tripstore.kr/assets/videos/d34fe2c7-31ef-42af-a352-6065a58244ed.mp4" type='video/mp4; codecs="av01"' />
-          <source src="https://static2.tripstore.kr/assets/videos/8d473271-a14e-429e-83b9-62fc412ebe27.mp4" type='video/mp4; codecs="hvc1"' />
-          <source src="https://static2.tripstore.kr/assets/videos/77f77ee4-4283-44ea-88b6-a24536f5ed14.mp4" type='video/mp4; codecs="avc1.42E01E"' />
-        </video>
-        <button class="roulette__button" type="button">룰렛 돌리고 혜택 뽑기</button>
+      <div class="sample-divider" aria-hidden="true"></div>
+
+      <section class="sample" aria-label="롤링 텍스트 샘플 2">
+        <section class="hero">
+          <img class="hero__icon" src="./assets/hotel.png" alt="" />
+
+          <div class="hero__title-block">
+            <h1 class="rolling-copy rolling-copy--letters" aria-live="polite">
+              <span class="rolling-copy__item is-active">솔 바이 멜리아 푸꾸옥</span>
+            </h1>
+            <div class="hero__divider" aria-hidden="true"></div>
+            <p class="hero__headline">
+              샘플 2 애니메이션<br />
+              레터 슬라이드 업
+            </p>
+          </div>
+
+          <p class="hero__description">
+            각 글자가 순차적으로 위로 이동해 전환되는 모션<br />
+            문장 갯수, 유지 시간, 폰트 사이즈 · 굵기 · 컬러 변경 가능
+          </p>
+        </section>
+
+        <section class="roulette" aria-label="룰렛 영상">
+          <video class="roulette__machine" autoplay muted loop playsinline preload="auto" poster="./assets/slot-machine.png" aria-label="룰렛 영상">
+            <source src="https://static2.tripstore.kr/assets/videos/d34fe2c7-31ef-42af-a352-6065a58244ed.mp4" type='video/mp4; codecs="av01"' />
+            <source src="https://static2.tripstore.kr/assets/videos/8d473271-a14e-429e-83b9-62fc412ebe27.mp4" type='video/mp4; codecs="hvc1"' />
+            <source src="https://static2.tripstore.kr/assets/videos/77f77ee4-4283-44ea-88b6-a24536f5ed14.mp4" type='video/mp4; codecs="avc1.42E01E"' />
+          </video>
+        </section>
       </section>
 
-      <section class="notice" aria-label="참여 안내">
-        <p>하루 1번, 로그인 시 참여가 가능해요</p>
-        <p>공유 후 룰렛을 1회 더 돌릴 수 있어요</p>
-        <p>룰렛 작동 횟수는 자정에 초기화돼요</p>
+      <div class="sample-divider" aria-hidden="true"></div>
+
+      <section class="sample" aria-label="롤링 텍스트 샘플 3">
+        <section class="hero">
+          <img class="hero__icon" src="./assets/hotel.png" alt="" />
+
+          <div class="hero__title-block">
+            <h1 class="rolling-copy rolling-copy--typing" aria-live="polite">
+              <span class="rolling-copy__item is-active">솔 바이 멜리아 푸꾸옥</span>
+            </h1>
+            <div class="hero__divider" aria-hidden="true"></div>
+            <p class="hero__headline">
+              샘플 3 애니메이션<br />
+              한글 타이핑
+            </p>
+          </div>
+
+          <p class="hero__description">
+            한글이 자모 조합처럼 입력되며 문장이 완성되는 모션<br />
+            문장 갯수, 유지 시간, 폰트 사이즈 · 굵기 · 컬러 변경 가능
+          </p>
+        </section>
+
+        <section class="roulette" aria-label="룰렛 영상">
+          <video class="roulette__machine" autoplay muted loop playsinline preload="auto" poster="./assets/slot-machine.png" aria-label="룰렛 영상">
+            <source src="https://static2.tripstore.kr/assets/videos/d34fe2c7-31ef-42af-a352-6065a58244ed.mp4" type='video/mp4; codecs="av01"' />
+            <source src="https://static2.tripstore.kr/assets/videos/8d473271-a14e-429e-83b9-62fc412ebe27.mp4" type='video/mp4; codecs="hvc1"' />
+            <source src="https://static2.tripstore.kr/assets/videos/77f77ee4-4283-44ea-88b6-a24536f5ed14.mp4" type='video/mp4; codecs="avc1.42E01E"' />
+          </video>
+        </section>
       </section>
 
-      <section class="winner" aria-label="당첨자 안내">
-        <div class="winner__divider" aria-hidden="true"></div>
-        <p class="winner__title">✨ 1차 당첨자(5.19-6.1)를 찾는 중이에요 ✨</p>
-        <div class="winner__row">
-          <span>1차 당첨자</span>
-          <span>트** 님 (010 - 00** - 00**)</span>
-        </div>
+      <div class="sample-divider" aria-hidden="true"></div>
+
+      <section class="sample" aria-label="롤링 텍스트 샘플 4">
+        <section class="hero">
+          <img class="hero__icon" src="./assets/hotel.png" alt="" />
+
+          <div class="hero__title-block">
+            <h1 class="rolling-copy rolling-copy--numbers" data-number="1234000" data-suffix="원" aria-live="polite">
+              <span class="rolling-copy__item is-active">1,234,000원</span>
+            </h1>
+            <div class="hero__divider" aria-hidden="true"></div>
+            <p class="hero__headline">
+              샘플 4 애니메이션<br />
+              넘버 롤링 업
+            </p>
+          </div>
+
+          <p class="hero__description">
+            숫자만 슬롯처럼 굴러가며 금액이나 수량을 강조하는 모션<br />
+            문장 1개 고정, 유지 시간, 폰트 사이즈 · 굵기 · 컬러 변경 가능
+          </p>
+        </section>
+
+        <section class="roulette" aria-label="룰렛 영상">
+          <video class="roulette__machine" autoplay muted loop playsinline preload="auto" poster="./assets/slot-machine.png" aria-label="룰렛 영상">
+            <source src="https://static2.tripstore.kr/assets/videos/d34fe2c7-31ef-42af-a352-6065a58244ed.mp4" type='video/mp4; codecs="av01"' />
+            <source src="https://static2.tripstore.kr/assets/videos/8d473271-a14e-429e-83b9-62fc412ebe27.mp4" type='video/mp4; codecs="hvc1"' />
+            <source src="https://static2.tripstore.kr/assets/videos/77f77ee4-4283-44ea-88b6-a24536f5ed14.mp4" type='video/mp4; codecs="avc1.42E01E"' />
+          </video>
+        </section>
       </section>
 
     </main>
 
-    <script src="./script.js"></script>
+    <script src="./script.js?v=hangul-typing-20260506"></script>
   </body>
 </html>
